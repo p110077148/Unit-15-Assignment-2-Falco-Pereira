@@ -30,11 +30,15 @@ Design Documentation
 - [2. P2](#15bp2-produce-designs-for-a-website-that-meet-client-requirements)
 - [3. M2](#115bm2-justify-the-design-decisions-explaining-how-they-will-meet-the-users-needs-and-be-fit-for-purpose)
 - [4. M2](#15bm2-justify-the-design-decisions-explaining-how-they-will-meet-the-users-needs-and-be-fit-for-purpose)
-- [4. Evaluation and Improvements](#4-evaluation-and-improvements)
-- [4. Evaluation and Improvements](#4-evaluation-and-improvements)
-- [4. Evaluation and Improvements](#4-evaluation-and-improvements)
-- [4. Evaluation and Improvements](#4-evaluation-and-improvements)
-- [4. Evaluation and Improvements](#4-evaluation-and-improvements)
+- [5. M2](#1115bm2-justify-the-design-decisions-explaining-how-they-will-meet-the-users-needs-and-be-fit-for-purpose)
+- [6. P3](#15bp3-review-the-website-design-proposals-with-others-to-identify-and-inform-improvements)
+- [7. P4](#15cp4-produce-a-website-for-an-intended-audience-and-purpose)
+- [8. P5](#15cp5-test-the-website-for-functionality-compatibility-and-usability)
+- [9. P6](#15cp6-review-the-extent-to-which-the-website-meets-client-requirements)
+- [10. M3](#15cp6-review-the-extent-to-which-the-website-meets-client-requirements)
+- [11. P5](#11115cp5-test-the-website-for-functionality-compatibility-and-usability)
+- [12. P4](#11115cp4-produce-a-website-for-an-intended-audience-and-purpose)
+- [13. D2](#11115cp4-produce-a-website-for-an-intended-audience-and-purpose)
 
 —---
 ## 1. Design Documentation
@@ -51,7 +55,7 @@ As per the requirements for the website i created wireframes for 5 main pages us
 I created them with the use of bootstrap in mind and they should be easily implemented and responsive once created using bootstrap.
 
 ### User Flow Diagram
-
+![alt text](Wireframe.png)
 
 
 # 115/B.M2 Justify the design decisions, explaining how they will meet the users needs and be fit for purpose.
@@ -99,7 +103,7 @@ In addition to this the site will be using the latest version of Bootstrap which
 
 
 
-# 15/B.M2 Justify the design decisions, explaining how they will meet the users needs and be fit for purpose.
+# 1115/B.M2 Justify the design decisions, explaining how they will meet the users needs and be fit for purpose.
 
 These are the choices I made after doing research and looking at other sites, these choices will make sure that the website I create will look sleek, professional and modern which will help users who desire to be website developers to look at the website and see something that will inspire them and make them more likely to apply. This not only helps the website look good but also meet the clients requirements.
 
@@ -113,92 +117,73 @@ To conclude the decision i have made in the design process will not only meet th
 
 
 
-15/B.P3 Review the website design proposals with others to identify and inform improvements.
-To ensure i meet the clients requirements i made sure to review the design proposals, i did this by emailing a senior web developer within the organisation in order to ensure that my work was up to standard, i emailed them within business hours and according to the project plan i laid out, this helps ensure that i am demonstrating both individual responsibility and effective self management in the development and review of a website
+# 15/B.P3 Review the website design proposals with others to identify and inform improvements.
 
+To ensure i meet the clients requirements i made sure to review the design proposals, i did this by emailing a senior web developer within the organisation in order to ensure that my work was up to standard, i emailed them within business hours and according to the project plan i laid out, this helps ensure that i am demonstrating both individual responsibility and effective self management in the development and review of a website
+![alt text](image-4.png)
 
 Here you can see the email correspondence I sent which shows professional language while also being polite, explaining what I have provided to streamline the review process and also to ensure that I am demonstrating individual responsibility and effective self management.
-
+![alt text](image-5.png)
 
 
 Here you can see the reply, the reply stated i needed to change some things with the wireframe as well as a colour in the colour schemes and typography. To show my creativity as well as my effective self management I started on these changes right away.
 
 To add onto this the request was to remove the jobs tab, and i took it upon myself to add a navigation bar/button in order to better optimise the design which shows both my creativity and effective self management in the design of the website and documentation, i also removed the CV link as requested, ensured home was in the top left of all pages and changed the colour of the apply button to blue as requested with the new documentation seen below.
+![alt text](image-6.png)
+
+![alt text](image-7.png)
 
 
-Colour Schemes
-Colour Code
-Description
-Primary
-Blue #0D6EFD
-Bootstrap buttons and links
-Secondary
-Grey #6C757D
-Navigation Text
-Background
-Light Grey #F8F9FA
-Backgrounds
-Main Text
-Dark Grey #212529
-Dark Grey Main Text
-Highlight
-Blue #0D6EFD
-Blue Colour for things like the Apply Button
-Element
-Font
-Description
-Headings
-'Poppins', sans-serif
-Clean Modern Font
-Body Text
-'Roboto', sans-serif
-Easily readable and high quality font that meets modern web design standards
-Forms
-'Courier New', monospace
-For forms and labels
-
-
-
+![alt text](image-8.png)
 Here you can see i emailed the senior web developer in order to make sure the changes were up to scratch and also to make them aware of a change i made on my own (Navigation bar/button)
-
+![alt text](image-9.png)
 Here you can see that they were happy with the changes made and also thought the navigation button idea was a great idea and since all the design documentation was good after a review and with changes made, I then moved onto creating the website.
 
-15/C.P4 Produce a website for an intended audience and purpose.
-
+# 15/C.P4 Produce a website for an intended audience and purpose.
+![alt text](image-10.png)
 Homepage with working apply button
-
+![alt text](image-11.png)
 Hover dropdown menu, responsive and all parts work
 
-
+![alt text](image-12.png)
+![alt text](image-13.png)
 Company profile page with logo, images and information and a clean layout and accurate information
 
+![alt text](image-14.png)
+![alt text](image-15.png)
 Trainee page with full names, images and descriptions and a clean layout
 
-
+![alt text](image-16.png)
 Job specification page with names of trainees, image of an example project and full job descriptions.
 
-
+![alt text](image-17.png)
 Apply page that lets you select from available job roles
 
 
-
+![alt text](image-18.png)
+![alt text](image-19.png)
 Web designer role with full job description
 
 
-
+![alt text](image-20.png)
+![alt text](image-21.png)
 Web developer role with full job description
 
 
-
-
+![alt text](image-22.png)
+![alt text](image-23.png)
+![alt text](image-24.png)
 Form validation that will prompt you to enter a name if not entered and double validation for email to ensure a valid email address is entered and once both are entered and email is valid form will submit and validation popup will not activate.
 
+![alt text](image-25.png)
 Web courses page with 6 working course links. All links work, short description is also provided
 
-
+![alt text](image-26.png)
+![alt text](image-27.png)
 Privacy policy page, with link to access the page integrated into the footer
 
-
+![alt text](image-28.png)
+![alt text](image-29.png)
 Working Social media link also integrated into the footer
 
 
@@ -209,440 +194,68 @@ Working Social media link also integrated into the footer
 
 
 
-15/C.P5 Test the website for functionality, compatibility and usability.
-Hot Beans Web Project | Test Plan | Browsers
-Device Kind
-Device Used
-OS (Operating System)
-Screen Size
-Browser
-Browser Version
-Pass/Fail
-Desktop
+# 15/C.P5 Test the website for functionality, compatibility and usability.
+![alt text](image-30.png)
+![alt text](<Screenshot 2025-05-18 162605.png>)
 
 
 
-Desktop
 
 
-Mobile
 
 
-Mobile
 
 
-Tablet
 
 
-Tablet
-Windows PC
 
 
 
-Windows PC
 
 
-Samsung S20 Ultra (Simulated)
 
-IPhone 14 Pro Max
 
-
-Galaxy Tab S4
-
-
-IPad Pro
-Windows 11
-
-
-
-Windows 11
-
-
-Android
-
-
-iOS
-
-
-Android
-
-
-iOS
-2560 x 1440
-
-
-
-2560 x 1440
-
-
-412 x 915
-
-
-430 x 932
-
-
-712 x 1138
-
-
-1024 x 1366
-Chrome
-
-
-
-Opera GX
-
-
-
-Chrome
-
-
-Chrome
-
-
-
-Chrome
-
-
-Chrome
-Version 136.0.7103.94 
-
-
-Version 133.0.6943.143
-
-
-Version 136.0.7103.94
-
-Version 136.0.7103.94 
-
-
-Version 136.0.7103.94 
-
-Version 136.0.7103.94 
-Pass
-
-
-
-Pass
-
-
-
-Pass
-
-
-Pass
-
-
-Pass
-
-
-Pass
-
-
-
-
-
-
-
-
-
-
-Hot Beans Web Project | Test Plan | Functionality
-Tested
-Expected Results
-Actual Results
-Pass/Fail
-Notes
-Homepage
-
-
-Apply Box
-
-
-Form Validation
-
-Navbar
-
-
-Pages
-
-
-Links
-Homepage loads and displays correctly with navbar, content and footer
-
-Selecting box will highlight it and show correct job description
-
-Warning will show if email is not entered correctly or name isn't entered
-
-Navbar is responsive and drops down when hovered over
-
-All pages Load and are responsive
-
-
-All links load
-Loaded as expected
-
-
-Roles both work as expected and show the correct job description
-
-Works as expected and shows validation messages
-
-Works as expected and is responsive
-
-All of the menu pages load and are responsive
-
-All links load and are working including footer links
-Pass
-
-
-Pass
-
-
-Pass
-
-
-Pass
-
-
-Pass
-
-
-Pass
-1 minor error, footer won't stay at bottom
-
-
-None
-
-
-None
-
-
-None
-
-
-
-None
-
-
-None
-
-
-
-
-
-
-
-
-
-
-
-
-Hot Beans Web Project | Test Plan | Functionality
-Tested
-Expected Results
-Actual Results
-Pass/Fail
-Notes
-Alternate test for images
-
-Keyboard Navigation
-
-Colour Contrast
-
-
-Focus Ring
-
-
-Scale
-
-
-Form Labels
-All images have correct Alt text
-
-
-You can navigate using just a keyboard
-
-
-Text and background have a good contrast
-
-When using TAB, ring clearly highlights what is selected using TAB
-
-Scale increases and decreases with browser zoom
-
-Form Fields are correctly labels with the correct box for the input
-All images had the correct alt text
-
-
-Menu won't drop on tab and you can select role to apply either
-
-Contrast is good and passes at least WCAG AA
-
-Works as expected, ring is clearly visible on all elements
-
-Scale works correctly at all scales
-
-
-All form boxes work and are correctly labled
-Pass
-
-
-Fail
-
-
-Pass
-
-
-Pass
-
-
-Pass
-
-
-Pass
-Tested using chrome dev tools and inspect
-
-Mostly works with 2 minor errors
-
-
-Lowest score was 4.5 which was AA rating
-
-
-None
-
-
-Max scales tested 25% - 500%
-
-Tested using Accessibility panel chrome
-
-
-
-
-
-
-
-
-
-
-
-Hot Beans Web Project | Test Plan | Usability
-Tested By
-Tested
-Feedback
-Changes Made/To Make
-Pass/Fail
-Simon Adams (Web Developer)
-
-
-
-Simon Adams (Web Developer)
-
-
-
-Simon Adams (Web Developer)
-
-
-Simon Adams (Web Developer)
-
-
-Simon Adams (Web Developer)
-Navigation and Menu
-
-
-
-Form
-
-
-
-Job Descriptions
-
-
-Mobile
-
-
-Font and Readability
-“Navigation Menu was good and easy to understand, drop down menu was very responsive
-
-It was hard to see if they were highlighted because of the sites colour scheme
-
-They were good, but the text felt a bit untidy
-
-Responsive and worked very well on my Samsung android
-
-Font was clean, professional and easy to read but colour scheme felt outdated
-None
-
-
-
-Will decide if we will change colour scheme or the colour of the outline
-
-Will format the text to tidy it up and make it cleaner
-
-None
-
-
-Will decide if i will change the colour scheme of the website
-
-
-Pass
-
-
-
-Fail
-
-
-
-Fail
-
-
-Pass
-
-
-Pass
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-15/C.P6 Review the extent to which the website meets client requirements.
+# 15/C.P6 Review the extent to which the website meets client requirements.
 
 This website was created as a request from Hot Beans Web, the goal and purpose of it was to attract aspiring web developers and designers who had recently finished their training or qualifications or were previously experienced and were looking for a job as a web developer. To do this they asked for a new section to their website. I will now review the project against the clients requirements and after a review will decide if any changes need to be made and if so I will then proceed to optimise the website and do the necessary changes.
 
-Client Requirements
-Company Profile
+## Client Requirements
+
+### Company Profile
+
 The new section needed to have a dedicated company profile gate, this page was created as company.html using bootstrap and vs code as well as all of the other pages, the page shows users Hot Beans Web’s goals, background, clients and contact information as well as their logo and offices which meets the clients requirements and allows users to learn about Hot Beans Web.
-Trainees Profile
+
+### Trainees Profile
 The new section needed to have a dedicated trainees page that was created under trainees.html, the page shows images of current trainees as well as a description of the current trainees which helps people connect with them without meeting them but also meets the clients requirements
-Job Specifications
+
+### Job Specifications
 The new section needed to have a dedicated jobs specification section, this was created and split between 2 pages under jobs.html apply.html. jobs.html has images of 2 trainees and an example project as well as a description of both the web designer and web developer roles which meet the clients requirements
-Apply Section
+
+### Apply Section
+
 This was the second part as a requirement was also an online application form, this was created under apply.html, it allows you to select between available roles, and once selected, a drop down will appear giving a full job description along with pay and an online application form at the bottom with working validation to aid accessibility, this along with the jobs.html fully meets the clients requirements.
-Course Links
+
+### Course Links
+
 Finally a section needed to have a dedicated to course links, this was created under courses.html and shows working links with small descriptions of 6 free online courses which fully meets the requirements of the client while also giving users help and options for advancing their knowledge and career.
 
 
-Additional Work
-Privacy
+## Additional Work
+
+### Privacy
+
 This was not a requirement from the client however to ensure that the client is compliant with GDPR and meets regulations, I decided to integrate a privacy policy for GDPR into the footer with a working link, this will help our client meet regulations and be in full compliance with law and regulation as well as help users understand Hot Beans privacy policy which is important and is in my opinion a must have for any reputable web development company.
-Social Media
+
+### Social Media
+
 Another thing that I did, that was done to demonstrate my individual responsibility, creativity and effective self-management in the design, development and review of a website was to create an integrated social media icon with a working link that will direct a user to the client's social media account. This is in my opinion important especially in our day and age where social media is integrated into people's lives and as such I ensured to integrate the clients social media into the footer on the opposite side of the privacy policy.
-Landing Page
+
+### Landing Page
+
 Another thing that I did, that was done to demonstrate my individual responsibility, creativity and effective self-management in the design, development and review of a website was to create a landing page with a small description stating the client is recruiting with an apply button that will redirect them to the application page, apply.html. I did this as some people might be repeat visitors or not want to go through the whole page and just want to apply, this will help users and returning users save time but also have a nice, clean professional landing page that won't bombard a user with company information which further helps meet the clients requirements in my opinion.
-Target audience and Purpose
+
+## Target audience and Purpose
+
 The new section I made uses a simple, yet clean and responsive navigation design that is accessible to all kinds of users
 
 
@@ -655,11 +268,7 @@ The new section works on multiple devices and operating systems while remaining 
 The online application has tooltips and live error notifications to help accessibility issues while also making the application process simpler
 
 
-
-
-
-
-Places to Improve
+## Places to Improve
 The main places to improve are going to be where issues were found in testing, these improvements are;
 
 Footer won't stay at the bottom of the page
@@ -685,7 +294,8 @@ This can be fixed and improved by fixing the code and ensuring the text is forma
 Colour scheme felt outdated
 
 This can be fixed by changing the colour scheme however it was a personal opinion and other users might feel different, however because of the highlighted job roles it might be worth it to change the colour scheme
-Conclusion
+
+## Conclusion
 To conclude my review i believe that the site does meet the clients requirements to the fullest extent, the website is smart, professional and clean, it is functional and has the correct content to meet the clients requirements with elements that help the site be responsive and feel professional, it is also easy to navigate and understand, user friendly and very accessible. However, as mentioned there are improvements and optimisations that could be made to further improve the site based on feedback from users and testing.
 
 
@@ -697,66 +307,14 @@ To conclude my review i believe that the site does meet the clients requirements
 
 
 
-15/C.M3 Optimise a website to meet client requirements
+# 15/C.M3 Optimise a website to meet client requirements
+
 To optimise the website i decided to address 2 issues with job roles and colour scheme and decided to try and make the colour schemes more modern as well as the typography, changes will be shown in RED
-
-Colour Schemes
-Colour Code
-Description
-Primary
-Dark Blue #0F0F1C
-Main Background
-Secondary
-Dark Grey #1A1A2E
-Panels and cards
-Accent Gradient
-Neon from pink #F81CE5 - purple #7928CA - blue #0070F3
-Will use linear-gradiant and find the right setting
-Secondary Text
-Light Grey #A1A1A1
-For Descriptions and other text
-Main Text
-Plain White #FFFFFF
-For Main and Heading Text
-Border
-Charcoal Grey #2C2C3A
-Borders and outlines
-Highlight
-Blue #0070F3
-For Hovers and Links
-Accent Gradient 2
-Blue #0d0d1f - #1a1a2e (Gradiant)
-Added a glow in the top right to give a more modern look
-Element
-Font
-Description
-Headings
-'Poppins', sans-serif
-Clean Modern Font
-Body Text
-'Roboto', sans-serif
-Easily readable and high quality font that meets modern web design standards
-Forms
-'Roboto Mono', monospace
-For forms and labels, modern and keeps things uniform
-Buttons
-'Poppins', sans-serif
-Clean Modern font and will stand out and keep things uniform
+![alt text](<Screenshot 2025-05-18 163816.png>)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-Optimisations Made
+## Optimisations Made
 
 I Completely revamped the theme, made it a dark theme, more modern and sleek
 
@@ -811,440 +369,50 @@ Fixed image scaling to fit ipad, tablet, smartphone and desktop screens and be a
 
 
 
-15/C.P5 Test the website for functionality, compatibility and usability.
-Hot Beans Web Project | Post Optimisation | Test Plan | Browsers
-Device Kind
-Device Used
-OS (Operating System)
-Screen Size
-Browser
-Browser Version
-Pass/Fail
-Desktop
+# 11115/C.P5 Test the website for functionality, compatibility and usability.
+![alt text](image-31.png)
+![alt text](image-32.png)
 
 
+# 11115/C.P4 Produce a website for an intended audience and purpose.
 
-Desktop
-
-
-Mobile
-
-
-Mobile
-
-
-Tablet
-
-
-Tablet
-Windows PC
-
-
-
-Windows PC
-
-
-Samsung S20 Ultra (Simulated)
-
-IPhone 14 Pro Max
-
-
-Galaxy Tab S4
-
-
-IPad Pro
-Windows 11
-
-
-
-Windows 11
-
-
-Android
-
-
-iOS
-
-
-Android
-
-
-iOS
-2560 x 1440
-
-
-
-2560 x 1440
-
-
-412 x 915
-
-
-430 x 932
-
-
-712 x 1138
-
-
-1024 x 1366
-Chrome
-
-
-
-Opera GX
-
-
-
-Chrome
-
-
-Chrome
-
-
-
-Chrome
-
-
-Chrome
-Version 136.0.7103.94 
-
-
-Version 133.0.6943.143
-
-
-Version 136.0.7103.94
-
-Version 136.0.7103.94 
-
-
-Version 136.0.7103.94 
-
-Version 136.0.7103.94 
-Pass
-
-
-
-Pass
-
-
-
-Pass
-
-
-Pass
-
-
-Pass
-
-
-Pass
-
-
-
-
-
-
-
-
-
-
-Hot Beans Web Project | Post Optimisation | Test Plan | Functionality
-Tested
-Expected Results
-Actual Results
-Pass/Fail
-Notes
-Homepage
-
-
-Apply Box
-
-
-Form Validation
-
-Navbar
-
-
-Pages
-
-
-Links
-Homepage loads and displays correctly with navbar, content and footer
-
-Selecting box will highlight it and show correct job description
-
-Warning will show if email is not entered correctly or name isn't entered
-
-Navbar is responsive and drops down when hovered over
-
-All pages Load and are responsive
-
-
-All links load
-Loaded as expected
-
-
-Roles both work as expected and show the correct job description
-
-Works as expected and shows validation messages
-
-Works as expected and is responsive
-
-All of the menu pages load and are responsive
-
-All links load and are working including footer links
-Pass
-
-
-Pass
-
-
-Pass
-
-
-Pass
-
-
-Pass
-
-
-Pass
-none
-
-
-None
-
-
-None
-
-
-None
-
-
-
-None
-
-
-None
-
-
-
-
-
-
-
-
-
-
-
-
-Hot Beans Web Project | Post Optimisation | Test Plan | Functionality
-Tested
-Expected Results
-Actual Results
-Pass/Fail
-Notes
-Alternate test for images
-
-Keyboard Navigation
-
-Colour Contrast
-
-
-Focus Ring
-
-
-Scale
-
-
-Form Labels
-All images have correct Alt text
-
-
-You can navigate using just a keyboard
-
-
-Text and background have a good contrast
-
-When using TAB, ring clearly highlights what is selected using TAB
-
-Scale increases and decreases with browser zoom
-
-Form Fields are correctly labels with the correct box for the input
-All images had the correct alt text
-
-
-You can navigate all sections with tab
-
-Contrast is good and passes at least WCAG AA
-
-Works as expected, ring is clearly visible on all elements
-
-Scale works correctly at all scales
-
-
-All form boxes work and are correctly labled
-Pass
-
-
-pass
-
-
-Pass
-
-
-Pass
-
-
-Pass
-
-
-Pass
-Tested using chrome dev tools and inspect
-
-none
-
-
-Lowest score was 4.5 which was AA rating
-
-
-None
-
-
-Max scales tested 25% - 500%
-
-Tested using Accessibility panel chrome
-
-
-
-
-
-
-
-
-
-
-
-Hot Beans Web Project | Post Optimisation | Test Plan | Usability
-Tested By
-Tested
-Feedback
-Changes Made/To Make
-Pass/Fail
-Simon Adams (Web Developer)
-
-
-
-Simon Adams (Web Developer)
-
-
-
-Simon Adams (Web Developer)
-
-
-Simon Adams (Web Developer)
-
-
-Simon Adams (Web Developer)
-Navigation and Menu
-
-
-
-Form
-
-
-
-Job Descriptions
-
-
-Mobile
-
-
-Font and Readability
-“Navigation Menu was good and easy to understand, drop down menu was very responsive
-
-Easy to see, read and understand
-
-They were good, text is now aligned well
-
-Responsive and worked very well on my Samsung android
-
-Font was clean, professional and easy to read, i loved the dark theme, the website was very pleasing
-None
-
-
-
-Website looks much better and more modern afer colour change
-
-Text was all aligned well
-
-None
-
-
-Website is sleek and modern after change
-
-
-Pass
-
-
-
-pass
-
-
-
-pass
-
-
-Pass
-
-
-Pass
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-15/C.P4 Produce a website for an intended audience and purpose.
-
+![alt text](image-33.png)
 Homepage with working apply button
 
+![alt text](image-34.png)
 Hover dropdown menu, responsive and all parts work
 
+![alt text](image-35.png)
 Company profile page with logo, images and information and a clean layout and accurate information
 
+![alt text](image-36.png)
+![alt text](image-37.png)
 Trainee page with full names, images and descriptions and a clean layout, added arrows to make the boxes hide the amount of information unless a user wants to see and made it look more modern
 
+![alt text](image-39.png)
 Job specification page with names of trainees, image of an example project and full job descriptions.
 
+![alt text](image-40.png)
 Apply page that lets you select from available job roles
 
+![alt text](image-41.png)
+![alt text](image-42.png)
 Web designer role with full job description
 
+![alt text](image-43.png)
+![alt text](image-44.png)
 Web developer role with full job description
 
+![alt text](image-45.png)
 Form validation that will prompt you to enter a name if not entered and double validation for email to ensure a valid email address is entered and once both are entered and email is valid form will submit and validation popup will not activate.
 
+![alt text](image-46.png)
 Web courses page with 6 working course links. All links work, short description is also provided
 
+![alt text](image-47.png)
 Privacy policy page, with link to access the page integrated into the footer
 
+![alt text](image-48.png)
 Working Social media link also integrated into the footer
 
 
@@ -1257,12 +425,14 @@ Working Social media link also integrated into the footer
 
 
 
-15/BC.D2 Evaluate the design and optimised website against client requirements.
+# 15/BC.D2 Evaluate the design and optimised website against client requirements.
 
-Final Evaluation
+##Final Evaluation
 
 This project was a delight to work on and really enjoyable however with that being said to have a strong evaluation its important to go back and look at the strengths and weaknesses of the website
-Strengths
+
+## Strengths
+
 First let's look at the strengths
 
 All requirements were met and all features are built into the site
@@ -1281,7 +451,9 @@ Clean, modern expandable sections
 
 
 Website is very accessible and provides features like a good contrast and keyboard navigation
-Weaknesses
+
+## Weaknesses
+
 Now lets look at the weaknesses
 
 There were difficulties with spacing in some areas and alignment on tablet devices, in particular ipad models
@@ -1291,7 +463,9 @@ Images are not 100% the intended size and aligned to my satisfaction
 
 
 Some parts of the site use custom styles which could cause issues down the road
-Future improvements
+
+## Future improvements
+
 Finally lets look at where we can improve for next time.
 
 
