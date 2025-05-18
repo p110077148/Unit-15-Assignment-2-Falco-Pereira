@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meet Our Trainees - Hot Beans Web</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Fonts(Google) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      color: #e5e7eb;
+      background: radial-gradient(circle at top left, rgba(255, 0, 200, 0.1), transparent 60%),
+      linear-gradient(135deg, #0d0d1f, #1a1a2e);
+    }
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1;
+    }
+
+
+    h1, h2, h3 {
+      font-family: 'Poppins', sans-serif;
+      color: #ffffff;
+    }
+
+    .navbar {
+      background: rgba(15, 15, 26, 0.85);
+      backdrop-filter: blur(6px);
+    }
+
+    .navbar .navbar-brand,
+    .navbar .btn-light {
+      color: #ffffff;
+    }
+
+    .btn-light {
+      background-color: #1a1a2e;
+      color: #ffffff;
+      border: 1px solid #3b3e5a;
+      font-weight: 500;
+      border-radius: 6px;
+    }
+    .btn-light:hover {
+      background-color: #3b3e5a;
+      color: #ffffff;
+    }
+
+    .dropdown-menu {
+      background-color: #1a1a2e;
+      border: 1px solid #2d2d44;
+      border-radius: 6px;
+    }
+
+    .dropdown-menu .dropdown-item {
+      color: #e5e7eb;
+    }
+
+    .dropdown-menu .dropdown-item:hover,
+    .dropdown-menu .dropdown-item:focus {
+      background-color: #3b3e5a;
+      color: #ffffff
+    }
+
+    .card {
+      background-color: rgba(34, 34, 51, 0.85) !important;
+      backdrop-filter: blur(6px);
+      border: none;
+      color: #e5e7eb;
+    }
+
+    .trainee-img {
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px 8px 0 0;
+    }
+
+    footer.footer-glass {
+      background: rgba(15, 15, 26, 0.9);
+      backdrop-filter: blur(6px);
+    }
+
+    /* text for description but also the box sizes */
+    .card-text {
+      white-space: pre-line;
+      text-align: justify;
+      line-height: 1.3;
+      max-height: 190px;
+      overflow: hidden;
+      position: relative;
+      transition: max-height 0.3s ease;
+    }
+
+    /* expanded text */
+    .card-text.expanded {
+      max-height: 2000px;
+    }
+
+    /* arrow to extend text */
+    .read-more {
+      background: none;
+      border: none;
+      color: #1b1b30;
+      cursor: pointer;
+      margin-top: 10px;
+      display: block;
+      font-weight: 500;
+      scale: 1;
+      font-size: 1.5rem;
+      line-height: 1;
+      background-color: rgba(225, 225, 225, 0.08);
+      padding: 6px 12px ;
+      border-radius: 10px;
+      user-select: none;
+      margin: 0 auto;
+      width: fit-content;
+
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Navbar(Navigation) -->
+  <nav class="navbar navbar-dark">
+    <div class="container-fluid d-flex justify-content-between align-items-center px-3">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+      <img src="images/logo-small.png" alt="Hot Beans Web Logo" style="height: 28px;" />
+      <span>Hot Beans Web Recruitment</span>
+      </a>
+      <div class="dropdown ms-auto">
+        <button class="btn btn-light text-white fw-semibold dropdown-toggle" 
+          id="navbarDropdown" 
+          data-bs-toggle="dropdown" 
+          aria-expanded="false">
+          ☰ Menu
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="company.html">Company</a></li>
+          <li><a class="dropdown-item" href="trainees.html">Trainees</a></li>
+          <li><a class="dropdown-item" href="jobs.html">Jobs</a></li>
+          <li><a class="dropdown-item" href="apply.html">Apply</a></li>
+          <li><a class="dropdown-item" href="courses.html">Courses</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<main>
+  <!-- Trainees -->
+  <section class="py-5">
+    <div class="container">
+      <h1 class="text-center mb-5">Meet Our Trainees</h1>
+      <div class="row g-4">
+        <!-- Daniel Lecroy -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="images/Daniel_Lecroy.jpg" alt="Daniel Lecroy" class="card-img-top trainee-img" />
+            <div class="card-body">
+              <h5 class="card-title">Daniel Lecroy – Web Designer</h5>
+              <div class="card-text" id="text-daniel">
+I'm Daniel and probably not the typical designer positioned behind an Illustrator artboard adjusting pixels, but I design. 
+Immersed in stylesheets tweaking font sizes and contemplating layouts is where you'll find me (~_^).
+I'm committed to creating fluent user experiences while staying fashionable.
+
+In building JavaScript applications, I'm equipped with just the right tools, and can absolutely function independently
+of them to deliver fast, resilient solutions optimized for scale — performance and scalability are priorities on my radar.
+
+I draw inspiration from a lot of different places when designing websites. Being a designer and creating something new every day is challenging.
+Sometimes, ideas spark instantly. But other times? They can take hours or even days to develop.
+When this happens, it’s useful to step away from the project for a moment and look to others’ work like at csszengarden to find inspiration.
+
+I also draw inspiration and awe from cultural art from around the world both old and new.
+              </div>
+              <button class="read-more" onclick="toggleText('text-daniel', this)">&#x25BC</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Li Chang -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="images/Li Chang.PNG" alt="Li Chang" class="card-img-top trainee-img" />
+            <div class="card-body">
+              <h5 class="card-title">Li Chang – Accessibility Specialist</h5>
+              <div class="card-text" id="text-li">
+Hello! My name is Li and I enjoy creating things that live on the internet.
+
+I decided on this career as I grew up with a heavy influence from my father who ran his own software house, and I got an insight into what it's like to work in the tech industry. My father would always hype about how learning to program or by "speaking the computer's language", he could type a few lines of code and tell the computer to do whatever he wanted it to do and that just blew my then curious and budding little mind.
+As I grew older, my interest in the field continued to grow as I started to understand the importance of technology and how it will continuously evolve to become a basic necessity in our day to day lives.
+I have always been one of the few girls in computing classes in school as well as only one of three other girls in my college courses, but I thought if my dad can do it, then so can I.
+
+I got my job with Hot Beans when I was in my last year of university, England had just gone into a lockdown due to COVID-19, and I was on the lookout for a good graduate job.
+I came across a job posting for a front-end engineer role at HBW I applied and a few days later I got a call for an interview. During the interview I spoke about how I enjoy all aspects of tech from design to development, as well as my awareness of the importance of web accessibility. A couple of days later, I received a phone call offering me the job and an email from my manager to tell me that I was joining the accessibility team.
+
+A typical day as a graduate accessibility specialist is where I work alongside designers and developers to support them to create and build brilliant new features and run accessibility audits across different sites and applications against WCAG (Web Content Accessibility Guidelines), which helps us find accessibility issues to tackle. This ensures that our sites can be used by everyone regardless of their disabilities. My team and I also create and deliver engagement resources to raise awareness and understanding of accessibility.
+
+Apart from having the basic knowledge of web development and accessibility to carry out the job you also need:
+- determination to learn
+- good communication skills
+- good analytical skills
+- to be adaptive and collaborative to work alongside different people.
+
+The part I enjoy most about my job is working with a large number of inspiring developers and designers with a range of unique and amazing ideas across many different projects. At the same time, I have an opportunity to advocate and educate others about the importance of the topic. It's great knowing that the websites we've put online are accessible and safe for everyone to use, regardless of their disability.
+            </div>
+            <button class="read-more" onclick="toggleText('text-li', this)">&#x25BC</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rosa DeCastello -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="images/Rosa_Decastello.jpg" alt="Rosa DeCastello" class="card-img-top trainee-img" />
+            <div class="card-body">
+              <h5 class="card-title">Rosa DeCastello – Frontend Developer</h5>
+              <div class="card-text" id="text-rosa">
+Hi I'm Rosa and I have a real passion for Creative design, I'm never happier than when I'm pushing the envelope of what can be done with HTML and CSS.
+
+I came into web design from an art background but soon realised that I needed to develop my technical skills as well. So I did a lot of online courses that pushed what I know, then used the support and experience of my colleagues to hone my skills.
+My work with Hot Beans has been very varied and I enjoy the challenge of not knowing what industry our next client will come from, it keeps me on my toes and my creativity fresh.
+
+I love working for HBW and they have been super supportive — these are some of the things I do on a day to day basis:
+
+- I take a lead role in maintaining and developing client's sites
+- attend meetings with internal and external clients to plan and develop site content, style and appearance
+- use web content management systems (CMS)
+- analyse website usage statistics
+- write reports for senior managers, clients and partnership organisations
+- carry out quality assurance checks on content
+
+The part I enjoy most about my job is being both technical and creative — it's the perfect mix.
+              </div>
+             <button class="read-more" onclick="toggleText('text-rosa', this)">&#x25BC</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+  <!-- Footer -->
+ <footer class="footer-glass text-white py-3 small">
+   <div class="container d-flex justify-content-between align-items-center flex-wrap">
+    
+    <!-- Left: Privacy Policy -->
+     <div class="mb-2 mb-md-0">
+       <a href="privacy.html" class="text-white text-decoration-underline">Privacy Policy</a>
+     </div>
+
+    <!-- Center: Copyright -->
+     <div class="text-center flex-grow-1 mb-2 mb-md-0">
+       &copy; 2025 Hot Beans Web.
+     </div>
+
+    <!-- Right: Facebook Icon -->
+     <div>
+       <a href="https://www.facebook.com/hotbeansweb000/" target="_blank" class="text-white text-decoration-none d-flex align-items-center">
+         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="me-1" viewBox="0 0 16 16">
+           <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05S0 3.603 0 8.05c0 3.995 2.925 7.309 6.75 7.951v-5.625H4.898V8.05H6.75V6.275c0-1.813 1.07-2.825 2.712-2.825.787 0 1.61.14 1.61.14v1.77h-.907c-.895 0-1.173.556-1.173 1.126v1.564h1.996l-.319 2.326H9.992V16c3.825-.642 6.75-3.956 6.75-7.951z"/>
+         </svg>
+         Facebook
+       </a>
+     </div>
+
+   </div>
+ </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Scrip JS Page-->
+  <script src="js/script.js"></script>
+</body>
+</html>

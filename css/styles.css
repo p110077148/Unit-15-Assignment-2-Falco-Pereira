@@ -1,0 +1,158 @@
+/* text and font */ 
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #e5e7eb;
+  background: radial-gradient(circle at top left, rgba(255, 0, 200, 0.08), transparent 50%),
+              linear-gradient(135deg, #0d0d1f, #1a1a2e);
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+}
+
+/* navbar(navigation) */ 
+.navbar {
+  background: rgba(15, 15, 26, 0.85);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  position: relative; /* stop going behind the images!*/
+  z-index: 1050;
+}
+
+/* Hot Beans Web Recruitment Font */
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.navbar-brand img {
+height: 28px;
+vertical-align: middle;
+}
+
+/* Menu style */
+.dropdown-menu {
+  background-color: #1a1a2e; /* Dark background */
+  border: 1px solid #2d2d44;
+  border-radius: 6px;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #e5e7eb; /* Light text */
+  font-weight: 500;
+  padding: 10px 16px;
+  transition: background-color 0.2s ease;
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+  background-color: #3b3e5a;
+  color: #ffffff;
+}
+
+
+/* dropdown on hover (Desktop, wont drop down on phone, slight issue before) */ 
+@media (min-width: 768px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+}
+
+/* buttons */ 
+.btn-light {
+  background-color: #1a1a2e;
+  color: #ffffff;
+  border: 1px solid #3b3e5a;
+  font-weight: 500;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+.btn-light:hover {
+  background-color: #3b3e5a;
+}
+
+/* Footer */ 
+.footer-glass {
+  background: rgba(15, 15, 26, 0.85);
+  backdrop-filter: blur(6px);
+  color: #e5e7eb;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Links */
+a.text-white.text-decoration-underline:hover {
+  color: #0d6efd;
+}
+
+/*Trying to make images look nicer*/ 
+
+/* trainee Images */ 
+.trainee-img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* course links */ 
+.list-group-item {
+  background-color: #1e1e2f;
+  color: #f1f1f1;
+  font-weight: 500;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  transition: all 0.3s ease;
+}
+
+/* adding focus to help heyboard use */
+.list-group-item:hover,
+.list-group-item:focus {
+  background-color: #3b3e5a; /* Please for my sweet colour blind eyes be easier to see */
+  color: #ffffff; /* Stay white bro i beg */
+  transform: translateY(-2px); /* Hover for me */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.role-box {
+  cursor: pointer;
+  background-color: #2a2a3d;
+  color: #e5e7eb;
+  transition: all 0.3s ease;
+  border: 1px solid #3b3e5a;
+  border-radius: 6px;
+}
+
+.role-box:hover {
+  background-color: #3b3e5a;
+}
+
+.role-box.selected {
+  border: 2px solid #0d6efd;
+  box-shadow: 0 0 10px rgba(13, 110, 253, 0.4);
+  background-color: #1e2b44;
+}
+
+.role-description {
+  background-color: #27293d;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 6px;
+  display: none;
+  white-space: pre-wrap;
+  font-size: 0.95rem;
+  color: #e5e7eb;
+}
+
+/* Trying to fix text colour */
+.text-muted {
+  color: #cbd5e1 !important;
+}
+
+/* Justify Text */
+.text-justify {
+  text-align: justify;
+}

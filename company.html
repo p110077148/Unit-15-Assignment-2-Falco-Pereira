@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - Hot Beans Web</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  
+  <!-- Fonts(Google) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet" />
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      color: #e5e7eb;
+      background: radial-gradient(circle at top left, rgba(255, 0, 200, 0.08), transparent 50%),
+                  linear-gradient(135deg, #0d0d1f, #1a1a2e);
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1;
+
+    }
+
+    h1, h2, h3 {
+      font-family: 'Poppins', sans-serif;
+      color: #ffffff;
+    }
+
+    .navbar {
+      background: rgba(15, 15, 26, 0.85);
+      backdrop-filter: blur(6px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    .navbar-brand {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 1.2rem;
+    }
+
+    .navbar-brand img {
+      height: 28px;
+      vertical-align: middle;
+    }
+
+    .dropdown-menu {
+      background-color: #1a1a2e;
+      border: 1px solid #2d2d44;
+      border-radius: 6px;
+    }
+
+    .dropdown-menu .dropdown-item {
+      color: #e5e7eb;
+      font-weight: 500;
+      padding: 10px 16px;
+      transition: background-color 0.2s ease;
+    }
+
+    .dropdown-menu .dropdown-item:hover,
+    .dropdown-menu .dropdown-item:focus {
+      background-color: #3b3e5a;
+      color: #ffffff;
+    }
+
+    @media (min-width: 768px) {
+      .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+      }
+    }
+
+    .btn-light {
+      background-color: #1a1a2e;
+      color: #ffffff;
+      border: 1px solid #3b3e5a;
+      font-weight: 500;
+      border-radius: 6px;
+    }
+
+    .btn-light:hover {
+      background-color: #3b3e5a;
+    }
+
+    .lead, p {
+      color: #cbd5e1;
+    }
+
+    .company-text p {
+      text-align: justify;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+
+    .office-img {
+      max-width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .footer-glass {
+      background: rgba(15, 15, 26, 0.85);
+      backdrop-filter: blur(6px);
+      color: #e5e7eb;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    a.text-white.text-decoration-underline:hover {
+      color: #0d6efd;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar(Navigation) -->
+  <nav class="navbar navbar-dark">
+    <div class="container-fluid d-flex justify-content-between align-items-center px-3">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <img src="images/logo-small.png" alt="Logo" />
+        <span>Hot Beans Web Recruitment</span>
+      </a>
+      <div class="dropdown ms-auto">
+        <button class="btn btn-light text-white fw-semibold dropdown-toggle" 
+          id="navbarDropdown" 
+          data-bs-toggle="dropdown" 
+          aria-expanded="false">
+          ☰ Menu
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="company.html">Company</a></li>
+          <li><a class="dropdown-item" href="trainees.html">Trainees</a></li>
+          <li><a class="dropdown-item" href="jobs.html">Jobs</a></li>
+          <li><a class="dropdown-item" href="apply.html">Apply</a></li>
+          <li><a class="dropdown-item" href="courses.html">Courses</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Company Info Section -->
+<main>  
+  <section class="py-5">
+    <div class="container company-text">
+      <div class="row align-items-center mb-5">
+        <div class="col-md-6">
+          <h1 class="mb-3">About Hot Beans Web</h1>
+          <p>Hot Beans Web was established in 2007 by David Wood, who previously held roles in a multi-national business. He saw the opportunity to create a different kind of web design agency — one focused on quality, affordability, and strong customer relationships.</p>
+          <p>Over a decade and a half later, that vision has paid off. Hot Beans Web has grown year after year, supporting clients from local startups to global brands. With our head office in Peterborough and another in Northampton, we continue to deliver high-quality websites that help our clients succeed.</p>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="images/Offices.jpg" alt="Hot Beans Web Office" class="office-img" />
+          <p class="mt-2 text-white fw-medium text-center">Hot Beans Web HQ – Peterborough</p>
+        </div>
+      </div>
+
+      <h2>Our Clients</h2>
+      <p class="text-justify">Our clients range from sole traders and small businesses to household names. We’ve worked directly and indirectly with companies such as Belkin, DSG Group, Ingram Micro, Halfords, Nationwide, and Tesco.</p>
+
+      <h2>Our People</h2>
+      <p>We’re proud of our amazing team of web designers, developers, and marketers who bring their creativity and passion to every project.</p>
+
+      <h2>Get Involved</h2>
+      <p>If you’d like to work with us but feel underqualified — don’t worry. Check out our <a href="courses.html">Courses</a> page to build your skills. When you’re ready, head over to our <a href="apply.html">Apply</a> page and let’s start the conversation.</p>
+    </div>
+  </section>
+</main>
+
+  <!-- Footer -->
+  <footer class="footer-glass text-white py-3 small">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap">
+
+      <!-- Left: Privacy Policy -->
+      <div class="mb-2 mb-md-0">
+        <a href="privacy.html" class="text-white text-decoration-underline">Privacy Policy</a>
+      </div>
+
+      <!-- Center: Copyright -->
+      <div class="text-center flex-grow-1 mb-2 mb-md-0">
+        &copy; 2025 Hot Beans Web.
+      </div>
+
+      <!-- Right: Facebook Icon -->
+      <div>
+        <a href="https://www.facebook.com/hotbeansweb000/" target="_blank" class="text-white text-decoration-none d-flex align-items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="me-1" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05S0 3.603 0 8.05c0 3.995 2.925 7.309 6.75 7.951v-5.625H4.898V8.05H6.75V6.275c0-1.813 1.07-2.825 2.712-2.825.787 0 1.61.14 1.61.14v1.77h-.907c-.895 0-1.173.556-1.173 1.126v1.564h1.996l-.319 2.326H9.992V16c3.825-.642 6.75-3.956 6.75-7.951z"/>
+          </svg>
+          Facebook
+        </a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

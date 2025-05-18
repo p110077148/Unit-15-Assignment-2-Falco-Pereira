@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Courses - Hot Beans Web</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Fonts(Google) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      color: #e5e7eb;
+      background: linear-gradient(135deg, #0d0d1f, #1a1a2e);
+      background: radial-gradient(circle at top left, rgba(255, 0, 200, 0.08), transparent 50%),
+            linear-gradient(135deg, #0d0d1f, #1a1a2e);
+    }
+
+        html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Poppins', sans-serif;
+      color: #ffffff;
+    }
+
+    .navbar {
+      background: rgba(15, 15, 26, 0.85);
+      backdrop-filter: blur(6px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    .btn-light {
+      background-color: #1a1a2e;
+      color: #ffffff;
+      border: 1px solid #3b3e5a;
+      border-radius: 6px;
+    }
+
+    .btn-light:hover {
+      background-color: #3b3e5a;
+    }
+
+    .list-group-item {
+      background-color: #1e1e2f;
+      color: #f1f1f1;
+      font-weight: 500;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 6px;
+      margin-bottom: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    .list-group-item:hover {
+      background-color: #2d2d44;
+    }
+
+    .lead, p {
+      color: #cbd5e1;
+    }
+
+    .container p {
+      text-align: justify;
+    }
+
+    .bg-light {
+      background-color: transparent !important;
+    }
+
+    .footer-glass {
+        background: rgba(15, 15, 26, 0.85);
+        backdrop-filter: blur(6px);
+        color: #e5e7eb;
+        border-top: 1px solid rgba(255, 255, 255, 0.06);
+        
+    }
+
+    /* Menu style */
+.dropdown-menu {
+  background-color: #1a1a2e;
+  border: 1px solid #2d2d44;
+  border-radius: 6px;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #e5e7eb;
+  font-weight: 500;
+  padding: 10px 16px;
+  transition: background-color 0.2s ease;
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+  background-color: #3b3e5a;
+  color: #ffffff;
+}
+
+    a.text-white.text-decoration-underline:hover {
+      color: #0d6efd;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar(Navigation) -->
+  <nav class="navbar navbar-dark">
+    <div class="container-fluid d-flex justify-content-between align-items-center px-3">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+      <img src="images/logo-small.png" alt="Hot Beans Web Logo" style="height: 28px;" />
+      <span>Hot Beans Web Recruitment</span>
+      </a>
+      <div class="dropdown ms-auto">
+        <button class="btn btn-light text-white fw-semibold dropdown-toggle" 
+          id="navbarDropdown" 
+          data-bs-toggle="dropdown" 
+          aria-expanded="false">
+          ☰ Menu
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="company.html">Company</a></li>
+          <li><a class="dropdown-item" href="trainees.html">Trainees</a></li>
+          <li><a class="dropdown-item" href="jobs.html">Jobs</a></li>
+          <li><a class="dropdown-item" href="apply.html">Apply</a></li>
+          <li><a class="dropdown-item" href="courses.html">Courses</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<main>
+  <!-- Courses -->
+  <section class="py-5">
+    <div class="container">
+      <h1 class="mb-4 text-center">Web Development Courses</h1>
+      <p class="text-center mb-5">To aid your development, we here at Hot Beans have created a small section with courses that we found help the most in the development of up and coming website developers and will aid applicants who wish to apply for our open roles as we are more likely to accept applicants who have completed at least 1 of these courses. Because of this with the help of our Senior Web Developers here is a list we created of great places to learn web development online. All these courses are FREE and easy to use and most of all they are trusted by developers around the world.</p>
+      
+      <div class="list-group">
+        <a href="https://www.freecodecamp.org/" target="_blank" class="list-group-item list-group-item-action">FreeCodeCamp – Free full curriculum for web developers</a>
+        <a href="https://www.codecademy.com/learn/paths/web-development" target="_blank" class="list-group-item list-group-item-action">Codecademy – Web Development Career Path</a>
+        <a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank" class="list-group-item list-group-item-action">MDN Web Docs – Learn web development (HTML, CSS, JS)</a>
+        <a href="https://www.theodinproject.com/" target="_blank" class="list-group-item list-group-item-action">The Odin Project – Free full-stack web dev course</a>
+        <a href="https://www.w3schools.com/" target="_blank" class="list-group-item list-group-item-action">W3Schools – Learn HTML, CSS, JavaScript and more</a>
+        <a href="https://scrimba.com/learn/frontend" target="_blank" class="list-group-item list-group-item-action">Scrimba – Frontend Developer Career Path</a>
+      </div>
+    </div>
+  </section>
+</main> 
+
+  <!-- Footer -->
+  <footer class="footer-glass text-white py-3 small">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap">
+
+     <!-- Left: Privacy Policy -->
+      <div class="mb-2 mb-md-0">
+        <a href="privacy.html" class="text-white text-decoration-underline">Privacy Policy</a>
+      </div>
+     
+      <!-- Center: Copyright -->
+      <div class="text-center flex-grow-1 mb-2 mb-md-0">
+        &copy; 2025 Hot Beans Web.
+      </div>
+    
+      <!-- Right: Facebook Icon -->
+      <div>
+        <a href="https://www.facebook.com/hotbeansweb000/" target="_blank" class="text-white text-decoration-none d-flex align-items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="me-1" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05S0 3.603 0 8.05c0 3.995 2.925 7.309 6.75 7.951v-5.625H4.898V8.05H6.75V6.275c0-1.813 1.07-2.825 2.712-2.825.787 0 1.61.14 1.61.14v1.77h-.907c-.895 0-1.173.556-1.173 1.126v1.564h1.996l-.319 2.326H9.992V16c3.825-.642 6.75-3.956 6.75-7.951z"/>
+          </svg>
+          Facebook
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

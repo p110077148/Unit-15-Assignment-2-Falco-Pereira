@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apply Now - Hot Beans Web</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Fonts(Google) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      color: #e5e7eb;
+      background: radial-gradient(circle at the top left, rgba(255, 0, 200, 0.00), transparent 50%),
+      linear-gradient(135deg, #0d0d1f, #1a1a2e);
+    }
+    
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1;
+    }
+    
+    h1, h2, h3 {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    footer {
+      background-color: #212529;
+    }
+
+   /* Select Role */
+    .form-box {
+      background: rgba(15, 15, 26, 0.85);
+      backdrop-filter: blur(6px);
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+      color: #e5e7eb;
+    }
+
+    .btn-primary {
+      background-color: #0d6efd;
+      border: none;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+    .btn-primary:hover {
+      background-color: #2563eb;
+    }
+
+    .btn-light {
+      background-color: #1a1a2e;
+      color: #ffffff;
+      border: 1px solid #3b3e5a;
+      font-weight: 500;
+      border-radius: 6px;
+    }
+    .btn-light:hover {
+      background-color: #3b3e5a;
+      color: #ffffff;
+    }
+
+    .dropdown-menu {
+      background-color: #1a1a2e;
+      border: 1px solid #2d2d44;
+      border-radius: 6px;
+    }
+
+    .dropdown-menu .dropdown-item {
+      color: #e5e7eb;
+      font-weight: 500;
+      padding: 10px 16px;
+      transition: background-color 0.2s ease;
+    }
+
+    .dropdown-menu .dropdown-item:hover,
+    .dropdown-menu .dropdown-item:focus {
+      background-color: #3b3e5a;
+      color: #ffffff;
+    }
+
+    
+    input.form-control {
+      background-color: #1a1a2e;
+      color: #ffffff;
+      border: 1px solid #3b3e5a;
+    }
+
+    input.form-control::placeholder {
+      color: #a0aec0;
+    }
+
+    .role-box {
+      cursor: pointer;
+      background-color: #1e1e2f;
+      color: #ffffff;
+      border: 1px solid #2d2d44;
+      border-radius: 6px;
+      transition: all 0.3s ease;
+    }
+
+    .role-box.selected {
+      border: 2px solid #0d6efd;
+      box-shadow: 0 0 8px rgba(13, 110, 253, 0.3);
+      background-color: #3b3e5a;
+    }
+
+    .role-box:focus {
+      outline: 2px solid #0d6efd;
+      outline-offset: 2px;
+    }
+
+    .role-description {
+      background-color: #2d2d44;
+      padding: 20px;
+      margin-top: 15px;
+      border-radius: 6px;
+      display: none;
+      white-space: pre-wrap;
+      font-size: 0.95rem;
+      color: #e5e7eb;
+      min-height: 100px;
+      transition: opacity 0.3s ease;
+      text-align: justify;
+      margin-bottom: 0.75rem;
+      max-width: 100%;
+      line-height: 1.6;
+    }
+
+  @media (min-width: 992px) {
+    .role-description {
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+
+
+  </style>
+</head>
+<body>
+
+  <!-- Navbar(Navigation) -->
+  <nav class="navbar navbar-dark">
+    <div class="container-fluid d-flex justify-content-between align-items-center px-3">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+      <img src="images/logo-small.png" alt="Hot Beans Web Logo" style="height: 28px;" />
+      <span>Hot Beans Web Recruitment</span>
+      </a>
+      <div class="dropdown ms-auto">
+        <button class="btn btn-light text-white fw-semibold dropdown-toggle" 
+          id="navbarDropdown" 
+          data-bs-toggle="dropdown" 
+          aria-expanded="false">
+          ☰ Menu
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="company.html">Company</a></li>
+          <li><a class="dropdown-item" href="trainees.html">Trainees</a></li>
+          <li><a class="dropdown-item" href="jobs.html">Jobs</a></li>
+          <li><a class="dropdown-item" href="apply.html">Apply</a></li>
+          <li><a class="dropdown-item" href="courses.html">Courses</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Apply -->
+<main>
+  <section class="py-5">
+    <div class="container">
+      <h1 class="text-center mb-4">Apply for a Role</h1>
+
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="form-box">
+            <form onsubmit="return validateEmail()"> 
+              <div class="mb-4">
+                <label class="form-label d-block mb-2">Select Role:</label>
+                <div class="d-flex gap-3">
+                  <label for="designer" class="role-box p-3 flex-fill text-center border rounded" tabindex="0">
+                    <input type="radio" name="role" id="designer" value="Web Designer" required class="visually-hidden" />
+                    <span class="fw-semibold">Web Designer</span>
+                  </label>
+
+                  <label for="developer" class="role-box p-3 flex-fill text-center border rounded" tabindex="0">
+                    <input type="radio" name="role" id="developer" value="Web Developer" class="visually-hidden" />
+                    <span class="fw-semibold">Web Developer</span>
+                  </label>
+                </div>
+              </div>
+                            <div id="desc-designer" class="role-description">
+<p>Web Designer</p>  
+
+  <p>Hot Beans Web - Peterborough PE1</p>   
+
+  <p>£24,000 - £30,000 a year - Full-time, Permanent</p> 
+
+<p>You'll be involved in the technical and graphical aspects of pages and will determine the look of the website as well as how it works.</p>   
+<p>You may also be responsible for the maintenance of an existing site.</p>   
+<p>The term web developer is sometimes used interchangeably with web designer, but this is misguided.</p>   
+<p>Web developing is a more specialist role, focusing on the back-end development of a website,  
+using programming languages to make the web design a reality that works well.</p>   
+<p>The growth in touchscreen phones and tablet devices has dictated a new way of designing websites,  
+with the web designer needing to ensure that web pages are responsive no matter what type of device is being used.</p>
+<p>Therefore, the need to test websites at different stages of design and on a variety of devices has become an important aspect of the job.</p>   
+<p>We are seeking a talented Web Designer to work with our team of programmers, and to join our ever-expanding creative team.</p> 
+
+<p><strong>You will:</strong></p>
+<ul>  
+  <li>Be working on a multitude of diverse creative projects for different audiences and markets</li>  
+  <li>Be responsible for the production of digital assets and website designs  </li> 
+  <li>Execute all visual design stages from concept to final hand-off to engineering </li>  
+  <li>Conceptualize original website design ideas that bring simplicity and user friendliness to complex roadblocks </li>  
+  <li>Create wireframes, storyboards, user flows, process flows and site maps to communicate interaction and design ideas </li>  
+  <li>Present and defend designs and key deliverables to peers and executive level stakeholders  </li> 
+  <li>Establish and promote design guidelines, best practices and standards  </li> 
+</ul>
+<p><strong>Essentials:</strong></p>
+<ul>  
+   <li>Proficiency in Photoshop, Illustrator or other visual design and wire-framing tools  </li> 
+   <li>Proficiency in HTML, CSS and JavaScript for rapid prototyping  </li> 
+   <li>Experience working in an Agile/Scrum development process  </li> 
+   <li>Excellent visual design skills with sensitivity to user-system interaction  </li> 
+   <li>Ability to solve problems creatively and effectively  </li> 
+   <li>Up-to-date with the latest Web trends, techniques and technologies </li>  
+   <li>Proven experience as a Digital / Web Designer – ideally with marketing agency experience.  A portfolio of work will be required pre-interview </li>  
+   <li>High level of proficiency in Adobe Creative Suite (Photoshop, InDesign, Illustrator and XD)  </li> 
+   <li>Solid experience in creating wireframes, storyboards, user flows, process flows and site maps </li>  
+   <li>A great team player  </li> 
+   <li>Strong verbal and written communication skills  </li> 
+   <li>High level of attention to detail and ability to stick to brand guidelines </li>  
+   <li>Proven ability to initiate and manage projects, including working to tight deadlines and managing your own workloads  </li> 
+   <li>Demonstrable passion for new technologies and design trends </li>  
+</ul>
+<p><strong>Desirable:</strong></p>
+<ul>  
+   <li>Experience using Figma</li>   
+   <li>Experience with client-facing communications</li>   
+   <li>Experience of UX / UI Research and Implementation </li>  
+</ul>
+
+<p><strong>What we offer:</strong></p>
+<ul>
+   <li>Competitive salary </li>  
+   <li>Additional Holiday to be taken on your birthday </li>  
+   <li>Company Bonus schemes </li>  
+   <li>Flexible working – 1 day per week guaranteed from home, if desired </li>  
+   <li>Regular team outings and socials </li>  
+   <li>A relaxed, fun and dynamic working environment </li>  
+</ul>
+<p>Job Types: Full-time, Permanent </p> 
+<p>Salary: £24,000.00 - £30,000.00 per year </p> 
+
+<p><strong>Additional pay:</strong></p>
+<ul>  
+   <li>Bonus scheme </li>  
+   <li>Performance bonus </li>  
+   <li>Yearly bonus </li>  
+</ul>
+
+<p><strong>Benefits:</strong></p> 
+<ul> 
+   <li>Casual dress </li>  
+   <li>Company events </li>  
+   <li>Work from home </li> 
+</ul>
+
+<p><strong>Schedule:</strong></p>
+<ul>  
+   <li>- Monday to Friday </li> 
+</ul>
+</div>
+ 
+
+<div id="desc-developer" class="role-description">
+<p>Web Developer</p>  
+
+<p>Hot Beans Web - Peterborough PE1</p>  
+
+<p>£28,000 - £35,000 a year - Full-time, Permanent</p> 
+
+<p>We are now looking to build our in-house systems development team with the appointment of a junior web developer.</p>   
+<p>The successful candidate will help develop back and front-end systems for our clients including eCommerce and B2B systems where you can see your ideas come to life.</p>   
+<p>As a small development team, you will have the opportunity to work across multiple technical domains developing a breadth of skills.</p> 
+
+<p><strong>You will:</strong></p>  
+
+<p>Your primary task as a web developer will be to create reliable and high-performing web-based applications and services.</p>  
+<p>Focusing solely on the underlying software and databases and working with other teams on the interface and visual design.</p>  
+<p>Establish and promote design guidelines, best practices and standards.</p>
+
+
+<p><strong>Essentials:</strong></p>
+<ul>  
+   <li>Experience with HTML, CSS, & JavaScript</li>  
+   <li>Exposure or Experience with one or more procedural programming languages, such as PHP, Java, C# (.Net), Python, CFML</li>  
+   <li>Exposure or Experience with one or more associated technologies:</li>  
+   <li>Database technologies (SQL Server, MySQL)</li>  
+   <li>Windows Server or Linux Distributions</li>  
+   <li>Development Tools (IDEs, CLIs, Toolchains)</li>  
+   <li>Git (or another VCS)</li>  
+   <li>An organised and pragmatic approach to solving problems</li>  
+   <li>The ability to work as part of a team including both technical and non-technical members</li>  
+   <li>Proven ability to initiate and manage projects, including working to tight deadlines and managing your own workloads</li>  
+   <li>Demonstrable passion for new technologies and design trends</li>
+</ul>
+
+<p><strong>Desirable:</strong></p>
+<ul>  
+   <li>- In addition to the above the Ideal candidate would have experience working with the Salesforce platform.</li>
+</ul>
+
+<p><strong>What we offer:</strong></p>
+<ul>  
+   <li>Competitive salary</li>  
+   <li>Additional Holiday to be taken on your birthday</li>  
+   <li>Company Bonus schemes</li>  
+   <li>Flexible working – 1 day per week guaranteed from home, if desired</li>  
+   <li>Regular team outings and socials</li>  
+   <li>A relaxed, fun and dynamic working environment</li>
+</ul>
+
+<p>Job Types: Full-time, Permanent</p>   
+<p>Salary: £28,000 - £35,000 per year</p>   
+
+<p><strong>Additional pay:</strong></p>
+<ul>  
+   <li>Bonus scheme</li>  
+   <li>Performance bonus</li>  
+   <li>Yearly bonus</li>  
+</ul>
+
+<p><strong>Benefits:</strong></p>
+<ul>  
+   <li>Casual dress</li>  
+   <li>Company events</li>  
+   <li>Work from home</li>  
+</ul>
+
+<p><strong>Schedule:</strong></p>
+<ul>  
+   <li>Monday to Friday</li>
+</ul>
+
+              </div>
+            
+              <div class="mb-3 mt-4">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your full name" required />
+              </div>
+              <!-- email error (pattern means email must have a . and at least 2 letters after)-->
+              <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input 
+                type="email" 
+                class="form-control" 
+                id="email" 
+                placeholder="Enter your email" 
+                required
+                pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+                oninvalid="handleInvalidEmail(event)"
+                oninput="validateEmail()" 
+                />
+                <div id="emailError" class="form-text text-danger d-none">Please enter a valid email address (e.g. yourname@example.com)</div>
+              </div>
+
+
+
+              <button type="submit" class="btn btn-primary w-100">Submit Application</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+  <!-- Footer -->
+  <footer class="footer-glass text-white py-3 small">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap">
+
+     <!-- Left: Privacy Policy -->
+      <div class="mb-2 mb-md-0">
+        <a href="privacy.html" class="text-white text-decoration-underline">Privacy Policy</a>
+      </div>
+     
+      <!-- Center: Copyright -->
+      <div class="text-center flex-grow-1 mb-2 mb-md-0">
+        &copy; 2025 Hot Beans Web.
+      </div>
+    
+      <!-- Right: Facebook Icon -->
+      <div>
+        <a href="https://www.facebook.com/hotbeansweb000/" target="_blank" class="text-white text-decoration-none d-flex align-items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="me-1" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05S0 3.603 0 8.05c0 3.995 2.925 7.309 6.75 7.951v-5.625H4.898V8.05H6.75V6.275c0-1.813 1.07-2.825 2.712-2.825.787 0 1.61.14 1.61.14v1.77h-.907c-.895 0-1.173.556-1.173 1.126v1.564h1.996l-.319 2.326H9.992V16c3.825-.642 6.75-3.956 6.75-7.951z"/>
+          </svg>
+          Facebook
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script>
+  function selectRoleById(roleId) {
+    // Remove "selected" style from all boxes
+    document.querySelectorAll('.role-box').forEach(box => {
+      box.classList.remove('selected');
+    });
+
+    // Check the correct radio
+    const input = document.getElementById(roleId);
+    input.checked = true;
+
+    // Highlight the selected box
+    const label = document.querySelector(`label[for="${roleId}"]`);
+    label.classList.add('selected');
+
+    // Show correct description
+    document.getElementById("desc-designer").style.display = roleId === "designer" ? "block" : "none";
+    document.getElementById("desc-developer").style.display = roleId === "developer" ? "block" : "none";
+  }
+
+  // for job accessability tab and enter
+  document.querySelectorAll('.role-box').forEach(label => {
+    label.addEventListener('click', () => {
+      const input = label.querySelector('input[type="radio"]');
+      selectRoleById(input.id);
+    });
+
+    label.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault(); // stop page from scrolling
+        const input = this.querySelector('input[type="radio"]');
+        if (input) {
+          selectRoleById(input.id);
+        }
+      }
+    });
+  });
+
+  // so click still works
+  document.querySelectorAll('input[name="role"]').forEach(input => {
+    input.addEventListener('change', function () {
+      selectRoleById(this.id);
+    });
+  });
+  </script>
+    <script>
+    function validateEmail() {
+    const emailField = document.getElementById("email");
+    const errorText = document.getElementById("emailError");
+    const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+    if (regex.test(emailField.value)) {
+        emailField.setCustomValidity(""); // Clear previous error
+        errorText.classList.add("d-none");
+        emailField.classList.remove("is-invalid");
+        return true;
+    } else {
+        emailField.setCustomValidity("Please enter a valid email address (e.g. yourname@example.com)"); // Tooltip
+        errorText.classList.remove("d-none");
+        emailField.classList.add("is-invalid");
+        return false;
+    }
+    }
+
+    function handleInvalidEmail(e) {
+        const customMessage = "Please enter a valid email address (e.g. yourname@example.com)";
+        e.target.setCustomValidity(customMessage);
+    }
+    </script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
