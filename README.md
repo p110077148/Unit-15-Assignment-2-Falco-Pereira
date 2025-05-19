@@ -318,7 +318,6 @@ To optimise the website i decided to address 2 issues with job roles and colour 
 
 I Completely revamped the theme, made it a dark theme, more modern and sleek
 
-
 Made Course links and hoverable buttons pop out when hovered and change colour for better contrast and make them easier to see and improve accessibility
 
 
